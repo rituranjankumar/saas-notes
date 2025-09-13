@@ -9,9 +9,9 @@ const userRoutes = require('./routes/userRoutes');
 
 // Define your allowed origins
 const allowedOrigins = [
-  'http://localhost:5173', // Your local development URL
+  'http://localhost:5173',  
   'https://saas-notes-xi.vercel.app',
-    // Your deployed Vercel URL
+    
 ];
 const app = express();
 const PORT = process.env.PORT || 5000;

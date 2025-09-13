@@ -60,8 +60,8 @@ export default function AdminDashboard() {
     return <div>Access Denied</div>;
   }
 
-  console.log("members",members)
-  console.log("user",user)
+  // console.log("members",members)
+  // console.log("user",user)
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold mb-2 text-center text-blue-400">

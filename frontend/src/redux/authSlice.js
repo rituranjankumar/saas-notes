@@ -1,13 +1,13 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_URL = "http://localhost:5000/api/auth/";
-
+//const API_URL = "http://localhost:5000/api/auth/";
+const  VITE_API_URL="https://saas-notes.onrender.com/api/auth/"
 export const loginUser = createAsyncThunk(
   'auth/login',
   async ({ email, password }, thunkAPI) => {
     try {
-      const response = await axios.post(API_URL + 'login', { email, password });
+      const response = await axios.post(VITE_API_URL + 'login', { email, password });
       if (response.data.token) {
         localStorage.setItem('token', response.data.token);
       }

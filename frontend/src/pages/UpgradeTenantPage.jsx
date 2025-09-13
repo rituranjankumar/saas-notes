@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 export default function UpgradeTenantPage() {
   const user = getTenantDetailsFromToken();
   
-  // This page is now a confirmation/info page. The actual upgrade happens on the dashboard.
+   
   return (
     <div className="p-6">
       <h1 className="text-3xl font-bold mb-4">Tenant Upgrade Status</h1>

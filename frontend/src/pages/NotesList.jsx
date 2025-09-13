@@ -87,7 +87,7 @@ export default function NotesList() {
   const myNotes = allNotes.filter(n => typeof n.creator === 'object' ? n.creator._id === user.id : n.creator === user.id);
   const otherNotes = allNotes.filter(n => typeof n.creator === 'object' ? n.creator._id !== user.id : n.creator !== user.id);
 
-  console.log("All notes ",allNotes)
+  //console.log("All notes ",allNotes)
   return (
     <div className="container mx-auto p-4">
       {isFreePlanAndLimitReached && (

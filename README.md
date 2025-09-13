@@ -50,7 +50,7 @@ saas-notes/
 
 ### 1️⃣ Clone the repo
 ```bash
-git clone https://github.com/your-username/saas-notes.git
+git clone https://github.com/rituranjankumar/saas-notes.git
 cd saas-notes
 
 frontend
